@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
+
+body {
+    background: url(bg-image.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'STIX Two Math', serif;
+    filter: blur()
+}
+
+h1 {
+    font-size: 45px;
+}
+
+#search-btn i {
+    font-size: 25px;
+}
+
+input[type=search] {
+    height: 45px;
+}
+
+#weather-status i {
+    font-size: 45px;
+}
+
+hr {
+    width: 41%;
+    height: 1px;
+    background-color: white;
+}
+
+.n-mb-8 {
+    margin-bottom: -8px;
+}
+
+.n-ms-20 {
+    margin-left: -20px !important;
+}
